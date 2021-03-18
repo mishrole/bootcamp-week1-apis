@@ -12,6 +12,7 @@
     "start": "NODE_ENV=production node -r dotenv/config dist/index.js"
   },
   "dependencies": {
+    "@ghondar/cli": "0.1.27",
     "@swc/core": "^1.2.50",
     "@swc/register": "^0.1.7",
     "@types/module-alias": "^2.0.0",

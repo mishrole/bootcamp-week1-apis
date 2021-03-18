@@ -1,0 +1,18 @@
+{
+    "target": "es6",
+    "compilerOptions": {
+      "baseUrl": "src",
+      "paths": {
+        "datalayer": ["./src/datalayer"],
+        "service": ["./src/service"],
+        "types/": ["./src/types"],
+        "utils": ["./src/utils"],
+        "datalayer/*": ["./src/datalayer/*"],
+        "service/*": ["./src/service/*"],
+        "types/*": ["./src/types/*"],
+        "utils/*": ["./src/utils/*"]
+      }
+    },
+    "exclude": ["node_modules", "dist"]
+  }
+  
